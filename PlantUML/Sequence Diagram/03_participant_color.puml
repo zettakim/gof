@@ -1,0 +1,12 @@
+@startuml
+actor Bob #Red
+participant Alice
+participant "I have a really\nlong name" as L #99FF99
+participant "I have a really\nlong name" as L #99FF99
+/' You can also declare:
+   participant L as "I have a really\nlong name"  #99FF99
+'/
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Long Transaction 
+@enduml

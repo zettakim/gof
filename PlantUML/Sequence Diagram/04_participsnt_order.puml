@@ -1,0 +1,6 @@
+@startuml
+' order 키워드를 이용하여, 참여자의 출력 순서를 지정
+participant Last    order 30
+participant Middle  order 20
+participant First   order 10
+@enduml

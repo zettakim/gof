@@ -1,0 +1,12 @@
+@startuml
+Printerable <|.. PrintClass
+interface Printerable {
+  {abstract} void print()
+  {abstract} void newPage()
+}
+
+class PrintClass {
+   void print() {}
+   void newPage() {}
+}
+@enduml

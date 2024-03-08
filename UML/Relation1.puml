@@ -1,0 +1,5 @@
+@startuml
+Client -right-> Target : Uses >
+Factory -right-> Product : Creates >
+Subject -right-> Observer : Notifies >
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+' Use non-letters in participants
+Alice -> "Bob()" : Hello
+"Bob()" -> "This is very\nlong" as Long
+' You can also declare:
+' "Bob()" -> Long as "This is very\nlong"
+Long --> "Bob()" : OK
+@enduml

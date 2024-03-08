@@ -1,0 +1,12 @@
+@startuml
+class Something {
+    -int privateField
+    #int protectedField
+    +int publicField
+    ~int packageFiled
+    -void privateMethod() {}
+    #void protectedMethod() {}
+    +void publicMethod() {}
+    ~void packageMethod() {}
+}
+@enduml

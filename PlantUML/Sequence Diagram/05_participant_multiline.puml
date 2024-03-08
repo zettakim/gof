@@ -1,0 +1,10 @@
+@startuml
+' Declaring participant on multiline
+participant Participant [
+    =Title
+    ----
+    ""SubTitle""
+]
+participant Bob
+Participant -> Bob
+@enduml
