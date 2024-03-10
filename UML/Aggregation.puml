@@ -1,4 +1,0 @@
-@startuml
-Color <-down-o Fruit
-Fruit <-down-o Basket
-@endumlß
